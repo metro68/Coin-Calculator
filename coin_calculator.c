@@ -14,7 +14,7 @@ int main()
     }
     while (cents < 0);
     {
-        while (cents >= 25)
+        while (cents >= 25) //Starts by offering you the biggest denomination of coins first and moves to the smaller ones. This assures you that you have as few coins as possible
         {
             cents = cents - 25;
             coins++;
